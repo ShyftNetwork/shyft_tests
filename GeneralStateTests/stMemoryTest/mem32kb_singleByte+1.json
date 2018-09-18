@@ -2,10 +2,10 @@
     "mem32kb_singleByte+1" : {
         "_info" : {
             "comment" : "",
-            "filledwith" : "cpp-1.3.0+commit.ee0c6776.Linux.g++",
-            "lllcversion" : "Version: 0.4.20-develop.2018.2.4+commit.c696803f.Linux.g++",
+            "filledwith" : "testeth 1.5.0.dev2-48+commit.413e4077.dirty",
+            "lllcversion" : "Version: 0.4.25-develop.2018.8.9+commit.63d071d6.mod.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stMemoryTest/mem32kb_singleByte+1Filler.json",
-            "sourceHash" : "edc4e3bc21dd9383070af8ad15b801075945a0a73c83822b54bddfa59a093928"
+            "sourceHash" : "3527cf5d8f1eb72a11f3ae3dc66775a048decae8538e5cf3abb1eccf89b43db0"
         },
         "env" : {
             "currentCoinbase" : "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -17,6 +17,17 @@
         },
         "post" : {
             "Byzantium" : [
+                {
+                    "hash" : "0xbce6091d727ff3b6b29ce187a343cf270ecb87fde937d65d32d41d5c4a7d7119",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                }
+            ],
+            "Constantinople" : [
                 {
                     "hash" : "0xbce6091d727ff3b6b29ce187a343cf270ecb87fde937d65d32d41d5c4a7d7119",
                     "indexes" : {
