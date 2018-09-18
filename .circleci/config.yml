@@ -2,16 +2,16 @@ version: 2
 jobs:
   build:
     machine: true
-    working_directory: ~/tests
-    branches:
-      only:
-      - master
-      - develop
     steps:
-    - checkout
-    - run:
-        name: Installing python deps
-        command: pip install pyyaml jsonschema pysha3
-    - run:
-        name: Check sanitization
-        command: make sani
+      - run: pip install pyyaml jsonschema pysha3
+  sani:
+    machine: true
+    steps:
+      - checkout
+      - run: make sani
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build
+      - sani
