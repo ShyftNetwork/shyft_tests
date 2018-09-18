@@ -1,11 +1,5 @@
 version: 2
 jobs:
-  build:
-    machine:
-      python:
-        version: 3.5.2
-    steps:
-      - run: pip install pyyaml jsonschema pysha3
   sani:
     machine:
         python:
@@ -13,10 +7,10 @@ jobs:
     steps:
       - checkout
       - run: pyenv global 3.5.2
+      - run: pip3 install pyyaml jsonschema pysha3
       - run: make sani
 workflows:
   version: 2
   build_and_test:
     jobs:
-      - build
       - sani
