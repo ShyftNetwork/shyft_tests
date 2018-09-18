@@ -7,7 +7,9 @@ jobs:
     steps:
       - run: pip install pyyaml jsonschema pysha3
   sani:
-    machine: true
+    machine:
+        python:
+          version: 3.6.1
     steps:
       - checkout
       - run: alias python3=python
