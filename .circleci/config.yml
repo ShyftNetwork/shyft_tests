@@ -1,6 +1,7 @@
 version: 2
 jobs:
   sani:
+    machine: true
     working_directory: ~/tests
     branches:
       only:
