@@ -152,7 +152,7 @@ def checkFilled(jsonFile):
             fillerSource = jsonTest[test]["_info"]["source"]
             fillerHash   = jsonTest[test]["_info"]["sourceHash"]
             if fillerHash != hashFile(fillerSource):
-                _logerror("Test must be filled:", jsonFile)
+                _logerror("Filler hash is different:", jsonFile)
 
 # Main
 # ====

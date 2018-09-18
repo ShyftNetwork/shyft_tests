@@ -2,10 +2,10 @@
     "log4_logMemStartTooHigh" : {
         "_info" : {
             "comment" : "",
-            "filledwith" : "cpp-1.3.0+commit.8fb57c56.Linux.g++",
-            "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
+            "filledwith" : "testeth 1.5.0.dev2-48+commit.413e4077.dirty",
+            "lllcversion" : "Version: 0.4.25-develop.2018.8.9+commit.63d071d6.mod.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stLogTests/log4_logMemStartTooHighFiller.json",
-            "sourceHash" : "71c6078ea152b77d4b655de9eb9ee48182c5ce8e9b3468a5eda6418d057937f3"
+            "sourceHash" : "213292f3d9c8c42dc50987f83202ae990066034a21c966a674b4cf3c01f2b27e"
         },
         "env" : {
             "currentCoinbase" : "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -19,6 +19,17 @@
             "Byzantium" : [
                 {
                     "hash" : "0x97e1497892dad551259b6b1e7fc0bed316f7f93bd9581db39015d6e20b5729b9",
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                }
+            ],
+            "Constantinople" : [
+                {
+                    "hash" : "0xa9f769feabd142a5489cc3306337c0bc5afe03b5ac8ab581d246babdf3c393ea",
                     "indexes" : {
                         "data" : 0,
                         "gas" : 0,
