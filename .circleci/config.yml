@@ -12,7 +12,7 @@ jobs:
           version: 3.6.1
     steps:
       - checkout
-      - run: alias python3=python
+      - run: pyenv global 3.6.1
       - run: make sani
 workflows:
   version: 2
