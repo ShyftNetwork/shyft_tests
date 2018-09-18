@@ -1,7 +1,9 @@
 version: 2
 jobs:
   build:
-    machine: true
+    machine:
+      python:
+        version: 3.6.1
     steps:
       - run: pip install pyyaml jsonschema pysha3
   sani:
