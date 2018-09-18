@@ -10,6 +10,7 @@ jobs:
     machine: true
     steps:
       - checkout
+      - run: alias python3=python
       - run: make sani
 workflows:
   version: 2
