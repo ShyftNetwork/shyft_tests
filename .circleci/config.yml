@@ -10,8 +10,8 @@ jobs:
     steps:
     - checkout
     - run:
-      name: Installing python deps
-      command: pip install pyyaml jsonschema pysha3
+        name: Installing python deps
+        command: pip install pyyaml jsonschema pysha3
     - run:
-      name: Check sanitization
-      command: make sani
+        name: Check sanitization
+        command: make sani
