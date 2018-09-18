@@ -3,16 +3,16 @@ jobs:
   build:
     machine:
       python:
-        version: 3.6.1
+        version: 3.5.2
     steps:
       - run: pip install pyyaml jsonschema pysha3
   sani:
     machine:
         python:
-          version: 3.6.1
+          version: 3.5.2
     steps:
       - checkout
-      - run: pyenv global 3.6.1
+      - run: pyenv global 3.5.2
       - run: make sani
 workflows:
   version: 2
