@@ -19,7 +19,9 @@ jobs:
       - run: make sani
 workflows:
   version: 2
-  build_and_test:
+  build-test:
     jobs:
       - upstream
       - sani
+        requires:
+          - upstream
