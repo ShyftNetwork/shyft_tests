@@ -6,5 +6,4 @@ git config user.name "David Ansermino"
 
 git remote add ethereum https://github.com/ethereum/tests
 git pull ethereum develop --rebase
-git commit -am 'CircleCi Merge with upstream'
-git push origin develop
+git diff-index --quiet HEAD || (git commit -am 'CircleCi Merge with upstream' && git push origin develop)
