@@ -25,11 +25,11 @@ workflows:
   upstream-weekly:
     triggers:
       - schedule:
-        cron: "0 0 * * 0"
-        filters:
-          branches:
-            only:
-              - develop
+          cron: "0 0 * * 0"
+          filters:
+            branches:
+              only:
+                - develop
     jobs:
       - upstream
       - sani:
