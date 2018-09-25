@@ -19,7 +19,17 @@ jobs:
       - run: make sani
 workflows:
   version: 2
-  build-test:
+  commit:
+    jobs:
+      - sani
+  upstream-weekly:
+    triggers:
+      - schedule:
+        cron: "0 0 * * 0"
+        filters:
+          branches:
+            only:
+              - develop
     jobs:
       - upstream
       - sani:
