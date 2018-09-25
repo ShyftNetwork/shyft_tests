@@ -23,5 +23,5 @@ workflows:
     jobs:
       - upstream
       - sani:
-        requires:
-          - upstream
+          requires:
+            - upstream
