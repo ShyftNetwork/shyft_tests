@@ -1,0 +1,41 @@
+{
+  "shyft_merkleprove_invalid2": {
+        "_info": {
+            "comment": "Attempts to prove a valid leaf with a path that has invalid direction indicators"
+        },
+        "env": {
+            "currentCoinbase": "2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentDifficulty": "256",
+            "currentGasLimit": "1000000",
+            "currentNumber": "0",
+            "currentTimestamp": "1",
+            "previousHash": "5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
+        },
+        "exec": {
+            "address": "0f572e5295c57f15886f9b263e2f6d2d6c7b5ec6",
+            "caller": "cd1722f2947def4cf144679da39c4c32bdc35681",
+            "data": "",
+            "gas": "100000",
+            "gasPrice": "100000000000000",
+            "origin": "cd1722f2947def4cf144679da39c4c32bdc35681",
+            "value": "1000000000000000000"
+        },
+        "expect": {
+            "0f572e5295c57f15886f9b263e2f6d2d6c7b5ec6": {
+                "storage": {
+                    "0x00": "0x01"
+                }
+            }
+        },
+        "pre": {
+            "0f572e5295c57f15886f9b263e2f6d2d6c7b5ec6": {
+                "balance": "1000000000000000000",
+                "code": "0x602160645260016084537f4de0e96b0a8886e42a2c35b57df8a9d58a93b5bff655bc37a30e2ab8e29dc0666085527fcf3804ca69f6aa627a6eb2c0f9c55cd2efdcecc6a8aa83a575ad4714a7446c6b7f60811857dd566889ff6255277d82526f2d9b3bbcb96076be22a5860765ac3d066064e360005500",
+                "nonce": "0",
+                "storage": {
+                    "0x00": "0x"
+                }
+            }
+        }
+    }
+}
