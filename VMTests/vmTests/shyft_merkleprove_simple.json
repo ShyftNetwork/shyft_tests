@@ -18,30 +18,28 @@
         "exec": {
             "address": "0x0f572e5295c57f15886f9b263e2f6d2d6c7b5ec6",
             "caller": "0xcd1722f2947def4cf144679da39c4c32bdc35681",
-            "code": "0x602160645260016084537f4de0e96b0a8886e42a2c35b57df8a9d58a93b5bff655bc37a30e2ab8e29dc0666085527fcf3804ca69f6aa627a6eb2c0f9c55cd2efdcecc6a8aa83a575ad4714a7446c6b7f60811857dd566889ff6255277d82526f2d9b3bbcb96076be22a5860765ac3d066064e360005500",
+            "code": "0x604060645260016084527f4de0e96b0a8886e42a2c35b57df8a9d58a93b5bff655bc37a30e2ab8e29dc06660a4527fcf3804ca69f6aa627a6eb2c0f9c55cd2efdcecc6a8aa83a575ad4714a7446c6b7f60811857dd566889ff6255277d82526f2d9b3bbcb96076be22a5860765ac3d066064e360325360016032f3",
             "data": "0x",
             "gas": "0x0186a0",
             "gasPrice": "0x5af3107a4000",
             "origin": "0xcd1722f2947def4cf144679da39c4c32bdc35681",
             "value": "0x0de0b6b3a7640000"
         },
-        "gas": "0x13844",
+        "gas": "0x18658",
         "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-        "out": "0x",
+        "out": "0x01",
         "post": {
             "0x0f572e5295c57f15886f9b263e2f6d2d6c7b5ec6": {
                 "balance": "0x0de0b6b3a7640000",
-                "code": "0x602160645260016084537f4de0e96b0a8886e42a2c35b57df8a9d58a93b5bff655bc37a30e2ab8e29dc0666085527fcf3804ca69f6aa627a6eb2c0f9c55cd2efdcecc6a8aa83a575ad4714a7446c6b7f60811857dd566889ff6255277d82526f2d9b3bbcb96076be22a5860765ac3d066064e360005500",
+                "code": "0x604060645260016084527f4de0e96b0a8886e42a2c35b57df8a9d58a93b5bff655bc37a30e2ab8e29dc06660a4527fcf3804ca69f6aa627a6eb2c0f9c55cd2efdcecc6a8aa83a575ad4714a7446c6b7f60811857dd566889ff6255277d82526f2d9b3bbcb96076be22a5860765ac3d066064e360325360016032f3",
                 "nonce": "0x00",
-                "storage": {
-                    "0x00": "0x01"
-                }
+                "storage": {}
             }
         },
         "pre": {
             "0x0f572e5295c57f15886f9b263e2f6d2d6c7b5ec6": {
                 "balance": "0x0de0b6b3a7640000",
-                "code": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01600055",
+                "code": "0x604060645260016084527f4de0e96b0a8886e42a2c35b57df8a9d58a93b5bff655bc37a30e2ab8e29dc06660a4527fcf3804ca69f6aa627a6eb2c0f9c55cd2efdcecc6a8aa83a575ad4714a7446c6b7f60811857dd566889ff6255277d82526f2d9b3bbcb96076be22a5860765ac3d066064e360325360016032f3",
                 "nonce": "0x00",
                 "storage": {}
             }
